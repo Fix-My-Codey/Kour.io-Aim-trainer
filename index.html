@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Aim Trainer</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+        #ui {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-family: Arial;
+            font-size: 20px;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="ui">
+        Score: <span id="score">0</span> | 
+        Time: <span id="timer">30</span>
+        <button id="reset" style="margin-left: 20px;">Reset</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
